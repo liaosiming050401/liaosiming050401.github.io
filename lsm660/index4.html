@@ -1,0 +1,86 @@
+<html>
+    <head>
+      <link rel="stylesheet" href="css/style1.css">
+        <title>英灵神殿宣传</title>
+        <style>
+            body{
+                background-size: 100%;
+                background-color: SlateGray;
+            }
+        #f1 {
+	position: absolute;
+	left: 300px;
+	top: 47px;
+	width: 1003px;
+	height: 107px;
+}
+     button{
+	            background-color:dodgerblue;
+	            color:white;
+	            width: 300px;
+	            height: 47px;
+	            border:0;
+	            font-size: 16px;			
+                border-radius: 30px;
+            } 
+
+        #pic {
+	background-image: url(images/1.jpg);
+	display: block;
+	padding-right: 0(值);
+	padding-left: 0px;
+}
+        #p {
+	display: block;
+	padding: 0px;
+}
+        </style>
+    </head>
+    <body background="images/6.jpg">
+      <div class="home">
+        <div class="content">
+          <div class="stars"></div>
+        <h1 style="color:red">&emsp;欢迎来到Valheim: 英灵神殿</h1>
+        <script>
+            var i=1;
+            setInterval(function(){
+                i++;
+                if(i>4){i=1;}
+                document.getElementById('pic').src="images/"+i+".jpg";
+            },1500);
+        </script>
+        <table width="41" border="0" id="f1" name="f1">
+          <tbody>
+            <tr>
+              <td width="254" ><a href="index3.html">
+                <button style="width:100px; height:70;">游戏简介</button>
+              </a></td>
+              <td width="285"><a href="index2.html">
+                <button style="width:100px; height:70;">视频宣传片</button>
+              </a></td>
+              <td width="228">
+                <a href="https://zhuanlan.zhihu.com/p/352560741">
+                    <button style="width:100px; height:70;">攻略大全</button>
+                </a>
+              </td>
+              <td width="218">
+                <a href="https://store.steampowered.com/app/892970/Valheim/?snr=1_7_7_151_150_1">
+                    <button style="width:100px; height:70;">下载（要加速steam哦！）</button>
+                </a>
+              </td>
+            </tr>
+          </tbody>
+        </table>
+		<br>
+		<br>
+		<br>
+		<br>
+		<br>
+		<br>
+          <div align="center">
+		     <img src="images/1.jpg"id="pic" width="856px" height="429px"/>
+	        </div>
+        </div>
+      </div>
+    </body>
+</html>
